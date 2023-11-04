@@ -1,0 +1,112 @@
+body {
+    width: 1508px;
+    height: 900px;
+    background-color: #F5F5F5;
+}
+header {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    font-size: 36px;
+    height: 150px;
+    align-items: center;
+    font-family: 'Roboto Thin';
+}
+.header__border {
+    border-top: 1px solid #EC7979;
+    width: 170px;
+}
+.header__text {
+    font-size: 18px;
+    font-family: 'Raleway VariableFont';
+    padding-top: 50px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.main__section {
+    width: 370px;    
+    text-align: center;  
+    display: flex; 
+    flex-direction: column; 
+    gap: 2px;    
+    margin-top: 79px;
+}
+h4 {
+    height: 60px;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    font-family: 'OpenSans VariableFont';
+    margin: 0;
+}
+h3 {
+    height: 100px;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    font-family: 'Raleway VariableFont';
+    margin: 0;
+}
+h5{
+    height: 50px;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    font-family: 'Raleway VariableFont';
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding-left: 0%;
+    margin: 0;
+}
+li {
+    height: 50px;
+    background-color: white;
+    width: 370px; 
+    font-size: 18px;  
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    font-family: 'Raleway VariableFont';  
+    border: 1px solid #F5F5F5;
+}
+.main__section:nth-child(2) {
+    margin-top: 59px;
+    box-shadow: 0 0 10px #33333333;
+    height: 528px;     
+}
+@font-face {
+    font-family: "Roboto Thin"; 
+    src: url("./Roboto-Thin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "Raleway VariableFont"; 
+    src: url("./Raleway-VariableFont_wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "OpenSans VariableFont"; 
+    src: url("./OpenSans-VariableFont_wdth\,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}  
+
